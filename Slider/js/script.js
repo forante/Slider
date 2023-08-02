@@ -78,7 +78,7 @@ function changeSlide() {
   area.querySelector("p").textContent = objectsArr[count].area;
   time.querySelector("p").textContent = objectsArr[count].time;
   cost.querySelector("p").textContent = objectsArr[count].cost;
-  img.style.backgroundImage = `url('../images/${objectsArr[count].img}')`;
+  img.style.backgroundImage = `url(../images/${objectsArr[count].img})`;
   addActiveClass(namesArr);
   addActiveClass(numArr);
   addActiveClass(underLineArr);
